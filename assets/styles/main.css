@@ -173,4 +173,12 @@ width: 100%;
   gap: 120px;
   padding-top: 20px;
 }
-
+.featuers .featuer-list{
+  width: 275px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.featuers .featuer-list h3{
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--title-color);
+}
