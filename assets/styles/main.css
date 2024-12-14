@@ -221,3 +221,9 @@ color: var(--main-color);
 .statistcs .statistcs-list .statistc span:last-child {
   color: var(--text-color);
 }
+.design-info {
+  width: 45%;
+  }
+  .designs img{
+    width: 100%;
+  }
