@@ -157,6 +157,10 @@ header nav ul li a{
     color: var(--white);
   }
 }
+.hero{
+  background-color: var(--bg-alt);
+
+}
 .hero .container .hero-info{
   padding-top: 100px;
 }
@@ -184,4 +188,36 @@ width: 100%;
 }
 .products .product-info{
 width: 45%;
+}
+.products img{
+  width: 100%;
+}
+.helping-info h3 span{
+  color: var(--main-color);
+
+}
+.statistcs {
+  background-color: var(--bg-alt);
+}
+.statistcs h2 span {
+color: var(--main-color);
+}
+.statistcs .statistcs-list {
+  gap: 100px;
+  width: 45%;
+}
+.statistcs .statistcs-list .statistc {
+  gap: 20px;
+}
+.statistcs .statistcs-list .statistc span {
+  display: block;
+  margin-bottom: 10px;
+}
+.statistcs .statistcs-list .statistc span:first-child {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--title-color);
+}
+.statistcs .statistcs-list .statistc span:last-child {
+  color: var(--text-color);
 }
